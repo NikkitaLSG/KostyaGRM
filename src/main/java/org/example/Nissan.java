@@ -1,19 +1,33 @@
 package org.example;
 
 public class Nissan {
-    String _model = "Silvia";
-    String _name ="Nissan Silvia";
-    int _age = 1998;
-    int _price = 700000;
+    private String Model = "Silvia";
+    private String Name ="Nissan Silvia";
+   private   int Age = 1998;
+    private int Price = 700000;
 
-    @Override
-    public String toString() {
-        return "Nissan{" +
-                "_model='" + _model + '\'' +
-                ", _name='" + _name + '\'' +
-                ", _age=" + _age +
-                ", _price=" + _price +
-                '}';
-
+    public String _getModel(){
+        return Model;
+    }
+    public void _setModel(String _changeModel){
+        Model = _changeModel;
+    }
+    public String _getName(){
+        return Name;
+    }
+    public  void _setName(String _changeName){
+       Name = _changeName;
+    }
+    public int _getAge(){
+        return Age;
+    }
+    public void  _setAge(Integer _changeAge){
+        Age = _changeAge;
+    }
+    public int _getPrice(){
+        return Age;
+    }
+    public void _setPrice(Integer _changePrice){
+        Price = _changePrice;
     }
 }
