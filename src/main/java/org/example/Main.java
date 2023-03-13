@@ -1,5 +1,5 @@
 package org.example;
-
+import org.example.Nissan;
 import java.util.Scanner;
 
 public class Main {
@@ -9,15 +9,6 @@ public class Main {
         Nissan name = new Nissan();
         Porshe name1 = new Porshe();
         Toyota neme2 = new Toyota();
-
-
-
-        Scanner s = new Scanner("введите название автомобиля" + System.in);
-        char c = s.findInLine(".").charAt(0);
-        int n = s.nextInt();
-
-
-        System.out.println(s);
 
       }
 
