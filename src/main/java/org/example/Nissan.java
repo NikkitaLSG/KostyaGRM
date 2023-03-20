@@ -3,7 +3,7 @@ package org.example;
 public class Nissan {
     private String Model = "Silvia";
     private String Name ="Nissan Silvia";
-    private   int Age = 1998;
+    private int Age = 1998;
     private int Price = 700000;
 
     public String _getModel(){
@@ -25,7 +25,7 @@ public class Nissan {
         Age = _changeAge;
     }
     public int _getPrice(){
-        return Age;
+        return Price;
     }
     public void _setPrice(Integer _changePrice){
         Price = _changePrice;
